@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K3 PT Mayora Indah Tbk</title>
     <meta name="description" content="Landing page edukasi Keselamatan dan Kesehatan Kerja PT Mayora Indah Tbk sebagai simulasi akademik.">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
     <header class="site-header">
         <div class="container nav-wrapper">
             <a href="#home" class="brand">
-                <img src="{{ asset('assets/img/logo-mayora.png') }}" alt="Logo Mayora">
+                <img src="/assets/img/logo-mayora.png" alt="Logo Mayora">
                 <span>K3 Mayora</span>
             </a>
 
@@ -36,9 +36,9 @@
         <!-- HERO SECTION DENGAN GLASSMORPHISM & OVERLAY GELAP ELEGAN -->
         <section id="home" class="image-hero">
             <div class="hero-bg-slider" aria-hidden="true">
-                <div class="hero-bg-slide slide-1" style="background-image: url('{{ asset('assets/img/hero-k3-1.png') }}');"></div>
-                <div class="hero-bg-slide slide-2" style="background-image: url('{{ asset('assets/img/hero-k3-2.png') }}');"></div>
-                <div class="hero-bg-slide slide-3" style="background-image: url('{{ asset('assets/img/hero-k3-3.png') }}');"></div>
+                <div class="hero-bg-slide slide-1" style="background-image: url('/assets/img/hero-k3-1.png');"></div>
+                <div class="hero-bg-slide slide-2" style="background-image: url('/assets/img/hero-k3-2.png');"></div>
+                <div class="hero-bg-slide slide-3" style="background-image: url('/assets/img/hero-k3-3.png');"></div>
             </div>
             <div class="hero-overlay"></div>
             
