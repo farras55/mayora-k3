@@ -6,14 +6,18 @@
     "routes": [
         {
             "src": "/assets/(.*\\.css)",
-            "dest": "/public/assets/$1",
+            "dest": "/assets/$1",
             "headers": {
                 "Content-Type": "text/css"
             }
         },
         {
             "src": "/assets/(.*)",
-            "dest": "/public/assets/$1"
+            "dest": "/assets/$1"
+        },
+        {
+            "src": "/build/(.*)",
+            "dest": "/build/$1"
         },
         {
             "src": "/(.*)",
