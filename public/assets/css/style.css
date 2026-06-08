@@ -1112,3 +1112,39 @@ footer {
         align-items: flex-start;
     }
 }
+
+/* =========================================================
+   PENGATURAN WARNA & UKURAN UNTUK ICON FONTAWESOME
+   ========================================================= */
+
+/* Icon di bagian Profil */
+.card-icon i {
+    color: var(--red);
+    font-size: 22px;
+}
+
+/* Icon di bagian Risiko (Background Gelap) */
+.risk-icon i {
+    color: var(--yellow);
+    font-size: 22px;
+}
+
+/* Icon di bagian APD */
+.apd-grid article span {
+    color: var(--red);
+    display: inline-flex;
+    margin-bottom: 12px;
+}
+.apd-grid article span i {
+    font-size: 32px;
+}
+
+/* Icon di bagian Ergonomi */
+.ergo-board article span {
+    color: var(--green);
+    display: inline-flex;
+    margin-bottom: 12px;
+}
+.ergo-board article span i {
+    font-size: 32px;
+}

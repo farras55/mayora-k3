@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K3 PT Mayora Indah Tbk</title>
     <meta name="description" content="Landing page edukasi Keselamatan dan Kesehatan Kerja PT Mayora Indah Tbk sebagai simulasi akademik.">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-<!-- BINGKAI UTAMA HALAMAN (BOXED LAYOUT CONTAINER) -->
 <div class="page-wrapper">
 
     <header class="site-header">
@@ -33,7 +35,6 @@
 
     <main>
 
-        <!-- HERO SECTION DENGAN GLASSMORPHISM & OVERLAY GELAP ELEGAN -->
         <section id="home" class="image-hero">
             <div class="hero-bg-slider" aria-hidden="true">
                 <div class="hero-bg-slide slide-1" style="background-image: url('/assets/img/hero-k3-1.png');"></div>
@@ -79,25 +80,25 @@
 
                     <div class="profile-cards">
                         <article class="glass-card">
-                            <div class="card-icon">🏭</div>
+                            <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
                             <h3>Bidang Usaha</h3>
                             <p>Manufaktur makanan dan minuman dengan lini produksi skala besar.</p>
                         </article>
 
                         <article class="glass-card">
-                            <div class="card-icon">📦</div>
+                            <div class="card-icon"><i class="fa-solid fa-box-open"></i></div>
                             <h3>Produk Unggulan</h3>
                             <p>Roma, Beng-Beng, Astor, Kopiko, Torabika, Energen, dan produk konsumsi lainnya.</p>
                         </article>
 
                         <article class="glass-card">
-                            <div class="card-icon">⚙️</div>
+                            <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
                             <h3>Area Operasional</h3>
                             <p>Produksi, gudang, boiler, laboratorium QC, cold storage, dan loading dock.</p>
                         </article>
 
                         <article class="glass-card">
-                            <div class="card-icon">🛡️</div>
+                            <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
                             <h3>Kebutuhan K3</h3>
                             <p>Pengendalian risiko, SOP, APD, safety maps, P3K, inspeksi, dan SMK3.</p>
                         </article>
@@ -208,42 +209,42 @@
 
                 <div class="risk-layout">
                     <article class="risk-card">
-                        <div class="risk-icon">📦</div>
+                        <div class="risk-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                         <h3>Gudang Bahan Baku</h3>
                         <p><strong>Bahaya:</strong> barang jatuh, forklift, tumpahan bahan kimia aditif pangan.</p>
                         <p><strong>Pencegahan:</strong> label kapasitas rak, jalur forklift, MSDS, dan prosedur bahan kimia.</p>
                     </article>
 
                     <article class="risk-card">
-                        <div class="risk-icon">⚙️</div>
+                        <div class="risk-icon"><i class="fa-solid fa-gear"></i></div>
                         <h3>Ruang Produksi</h3>
                         <p><strong>Bahaya:</strong> conveyor, mixer, mesin pengemas, lantai licin, dan kebisingan.</p>
                         <p><strong>Pencegahan:</strong> guard mesin, rotasi kerja, SOP, dan marka anti-slip.</p>
                     </article>
 
                     <article class="risk-card">
-                        <div class="risk-icon">🔥</div>
+                        <div class="risk-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                         <h3>Boiler & Utilitas</h3>
                         <p><strong>Bahaya:</strong> tekanan tinggi, pipa panas, panel listrik, dan uap panas.</p>
                         <p><strong>Pencegahan:</strong> inspeksi boiler, isolasi termal, grounding, dan LOTO.</p>
                     </article>
 
                     <article class="risk-card">
-                        <div class="risk-icon">🧪</div>
+                        <div class="risk-icon"><i class="fa-solid fa-flask"></i></div>
                         <h3>Laboratorium QC</h3>
                         <p><strong>Bahaya:</strong> reagen kimia, glassware, oven/autoklaf, dan kontaminasi sampel.</p>
                         <p><strong>Pencegahan:</strong> fume hood, eyewash, shower darurat, dan SOP lab.</p>
                     </article>
 
                     <article class="risk-card">
-                        <div class="risk-icon">♨️</div>
+                        <div class="risk-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
                         <h3>Area Pengovenan</h3>
                         <p><strong>Bahaya:</strong> suhu tinggi, gas buang, uap panas, dan debu tepung.</p>
                         <p><strong>Pencegahan:</strong> ventilasi, exhaust fan, pelindung oven, and rotasi kerja.</p>
                     </article>
 
                     <article class="risk-card">
-                        <div class="risk-icon">❄️</div>
+                        <div class="risk-icon"><i class="fa-solid fa-snowflake"></i></div>
                         <h3>Cold Storage</h3>
                         <p><strong>Bahaya:</strong> suhu rendah, lantai beku, pintu otomatis, dan risiko terkunci.</p>
                         <p><strong>Pencegahan:</strong> alarm, sistem buddy, batas waktu masuk, dan sepatu anti-slip.</p>
@@ -318,37 +319,37 @@
 
                 <div class="apd-grid">
                     <article>
-                        <span>⛑️</span>
+                        <span><i class="fa-solid fa-helmet-safety"></i></span>
                         <h3>Helm Safety</h3>
                         <p>Melindungi kepala dari benturan dan benda jatuh.</p>
                     </article>
 
                     <article>
-                        <span>🥾</span>
+                        <span><i class="fa-solid fa-shoe-prints"></i></span>
                         <h3>Sepatu Safety</h3>
                         <p>Melindungi kaki dari benda berat, lantai licin, dan bahan kimia.</p>
                     </article>
 
                     <article>
-                        <span>👂</span>
+                        <span><i class="fa-solid fa-ear-listen"></i></span>
                         <h3>Earplug / Earmuff</h3>
                         <p>Mengurangi paparan kebisingan mesin produksi.</p>
                     </article>
 
                     <article>
-                        <span>🥽</span>
+                        <span><i class="fa-solid fa-glasses"></i></span>
                         <h3>Kacamata Safety</h3>
                         <p>Melindungi mata dari debu, percikan, dan partikel kecil.</p>
                     </article>
 
                     <article>
-                        <span>😷</span>
+                        <span><i class="fa-solid fa-mask"></i></span>
                         <h3>Masker / Respirator</h3>
                         <p>Melindungi pernapasan dari debu tepung, uap, gas, dan bahan kimia.</p>
                     </article>
 
                     <article>
-                        <span>🧤</span>
+                        <span><i class="fa-solid fa-mitten"></i></span>
                         <h3>Sarung Tangan</h3>
                         <p>Melindungi tangan dari panas, bahan kimia, benda tajam, dan jepitan.</p>
                     </article>
@@ -370,25 +371,25 @@
 
             <div class="ergo-board">
                 <article>
-                    <span>💡</span>
+                    <span><i class="fa-solid fa-lightbulb"></i></span>
                     <h3>Pencahayaan</h3>
                     <p>Cahaya harus cukup terang, tidak menyilaukan, dan mendukung ketelitian kerja.</p>
                 </article>
 
                 <article>
-                    <span>🌡️</span>
+                    <span><i class="fa-solid fa-temperature-half"></i></span>
                     <h3>Suhu & Kelembaban</h3>
                     <p>Area panas dan dingin perlu ventilasi, APD, rotasi kerja, dan batas waktu paparan.</p>
                 </article>
 
                 <article>
-                    <span>🪑</span>
+                    <span><i class="fa-solid fa-chair"></i></span>
                     <h3>Postur Kerja</h3>
                     <p>Posisi berdiri lama, gerakan berulang, dan angkat manual harus dikendalikan.</p>
                 </article>
 
                 <article>
-                    <span>🧠</span>
+                    <span><i class="fa-solid fa-brain"></i></span>
                     <h3>Nonfisik</h3>
                     <p>Iklim kerja yang kondusif menurunkan stres dan meningkatkan performa pekerja.</p>
                 </article>
@@ -637,7 +638,5 @@
         </div>
     </footer>
 
-</div> <!-- /page-wrapper -->
-
-</body>
+</div> </body>
 </html>
