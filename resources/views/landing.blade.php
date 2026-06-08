@@ -6,12 +6,17 @@
     <title>K3 PT Mayora Indah Tbk</title>
     <meta name="description" content="Landing page edukasi Keselamatan dan Kesehatan Kerja PT Mayora Indah Tbk sebagai simulasi akademik.">
     
+    <!-- Link FontAwesome untuk Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
+<!-- BINGKAI UTAMA HALAMAN -->
 <div class="page-wrapper">
 
     <header class="site-header">
@@ -44,7 +49,7 @@
             <div class="hero-overlay"></div>
             
             <div class="container hero-container">
-                <div class="hero-glass-card">
+                <div class="hero-glass-card" data-aos="fade-up" data-aos-duration="1000">
                     <span class="section-chip hero-chip">Simulasi Akademik K3</span>
                     <h1>Budaya K3: Prioritas Utama Operasional Mayora</h1>
                     <p>Komitmen nyata PT Mayora Indah Tbk dalam mewujudkan lingkungan kerja manufaktur FMCG yang aman, sehat, dan produktif demi zero accident.</p>
@@ -58,7 +63,7 @@
 
         <section id="profil" class="page-section profile-page">
             <div class="container">
-                <div class="page-heading center-heading">
+                <div class="page-heading center-heading" data-aos="fade-up">
                     <p class="section-chip">Profil Perusahaan</p>
                     <h2>PT Mayora Indah Tbk sebagai Industri Manufaktur FMCG</h2>
                     <p>
@@ -69,7 +74,7 @@
                 </div>
 
                 <div class="profile-layout">
-                    <div class="profile-highlight">
+                    <div class="profile-highlight" data-aos="fade-right">
                         <span class="big-number">1977</span>
                         <h3>Berdiri dan Berkembang di Industri FMCG</h3>
                         <p>
@@ -79,25 +84,25 @@
                     </div>
 
                     <div class="profile-cards">
-                        <article class="glass-card">
+                        <article class="glass-card" data-aos="fade-up" data-aos-delay="100">
                             <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
                             <h3>Bidang Usaha</h3>
                             <p>Manufaktur makanan dan minuman dengan lini produksi skala besar.</p>
                         </article>
 
-                        <article class="glass-card">
+                        <article class="glass-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="card-icon"><i class="fa-solid fa-box-open"></i></div>
                             <h3>Produk Unggulan</h3>
                             <p>Roma, Beng-Beng, Astor, Kopiko, Torabika, Energen, dan produk konsumsi lainnya.</p>
                         </article>
 
-                        <article class="glass-card">
+                        <article class="glass-card" data-aos="fade-up" data-aos-delay="300">
                             <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
                             <h3>Area Operasional</h3>
                             <p>Produksi, gudang, boiler, laboratorium QC, cold storage, dan loading dock.</p>
                         </article>
 
-                        <article class="glass-card">
+                        <article class="glass-card" data-aos="fade-up" data-aos-delay="400">
                             <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
                             <h3>Kebutuhan K3</h3>
                             <p>Pengendalian risiko, SOP, APD, safety maps, P3K, inspeksi, dan SMK3.</p>
@@ -110,7 +115,7 @@
         <section id="komitmen" class="page-section safety-page">
             <div class="container">
                 <div class="split-layout">
-                    <div class="split-copy">
+                    <div class="split-copy" data-aos="fade-right">
                         <p class="section-chip">Konsep K3</p>
                         <h2>K3 Bukan Sekadar Aturan, tetapi Budaya Kerja.</h2>
                         <p>
@@ -129,25 +134,25 @@
                     </div>
 
                     <div class="pillar-grid">
-                        <article class="pillar-card">
+                        <article class="pillar-card" data-aos="zoom-in" data-aos-delay="100">
                             <span>01</span>
                             <h3>Melindungi Pekerja</h3>
                             <p>Mencegah cedera, penyakit akibat kerja, kecacatan, dan kematian.</p>
                         </article>
 
-                        <article class="pillar-card">
+                        <article class="pillar-card" data-aos="zoom-in" data-aos-delay="200">
                             <span>02</span>
                             <h3>Menjaga Produksi</h3>
                             <p>Mengurangi downtime, kerusakan aset, produk gagal, dan kerugian operasional.</p>
                         </article>
 
-                        <article class="pillar-card">
+                        <article class="pillar-card" data-aos="zoom-in" data-aos-delay="300">
                             <span>03</span>
                             <h3>Meningkatkan Produktivitas</h3>
                             <p>Lingkungan kerja yang aman membuat pekerja lebih nyaman dan fokus.</p>
                         </article>
 
-                        <article class="pillar-card">
+                        <article class="pillar-card" data-aos="zoom-in" data-aos-delay="400">
                             <span>04</span>
                             <h3>Membangun Kepatuhan</h3>
                             <p>K3 mendukung kepatuhan hukum, tata kelola perusahaan, dan reputasi bisnis.</p>
@@ -159,7 +164,7 @@
 
         <section id="hukum" class="page-section law-page">
             <div class="container">
-                <div class="page-heading">
+                <div class="page-heading" data-aos="fade-up">
                     <p class="section-chip">Landasan Hukum</p>
                     <h2>Dasar Penerapan K3 di Perusahaan</h2>
                     <p>
@@ -169,25 +174,25 @@
                 </div>
 
                 <div class="timeline-grid">
-                    <article class="timeline-card">
+                    <article class="timeline-card" data-aos="fade-up" data-aos-delay="100">
                         <span>01</span>
                         <h3>UU No. 1 Tahun 1970</h3>
                         <p>Payung hukum utama keselamatan kerja untuk mencegah kecelakaan dan melindungi pekerja.</p>
                     </article>
 
-                    <article class="timeline-card">
+                    <article class="timeline-card" data-aos="fade-up" data-aos-delay="200">
                         <span>02</span>
                         <h3>UU Ketenagakerjaan</h3>
                         <p>Mengatur hak pekerja untuk memperoleh perlindungan keselamatan dan kesehatan kerja.</p>
                     </article>
 
-                    <article class="timeline-card">
+                    <article class="timeline-card" data-aos="fade-up" data-aos-delay="300">
                         <span>03</span>
                         <h3>PP No. 50 Tahun 2012</h3>
                         <p>Menjadi dasar penerapan Sistem Manajemen Keselamatan dan Kesehatan Kerja.</p>
                     </article>
 
-                    <article class="timeline-card">
+                    <article class="timeline-card" data-aos="fade-up" data-aos-delay="400">
                         <span>04</span>
                         <h3>Permenaker APD & P2K3</h3>
                         <p>Mengatur penyediaan APD serta pembentukan forum pembina K3 di perusahaan.</p>
@@ -198,7 +203,7 @@
 
         <section id="risiko" class="page-section risk-page">
             <div class="container">
-                <div class="page-heading center-heading light-heading">
+                <div class="page-heading center-heading light-heading" data-aos="fade-up">
                     <p class="section-chip">Identifikasi Bahaya</p>
                     <h2>Area Risiko K3 di Lingkungan Manufaktur Mayora</h2>
                     <p>
@@ -208,42 +213,42 @@
                 </div>
 
                 <div class="risk-layout">
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="100">
                         <div class="risk-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                         <h3>Gudang Bahan Baku</h3>
                         <p><strong>Bahaya:</strong> barang jatuh, forklift, tumpahan bahan kimia aditif pangan.</p>
                         <p><strong>Pencegahan:</strong> label kapasitas rak, jalur forklift, MSDS, dan prosedur bahan kimia.</p>
                     </article>
 
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="200">
                         <div class="risk-icon"><i class="fa-solid fa-gear"></i></div>
                         <h3>Ruang Produksi</h3>
                         <p><strong>Bahaya:</strong> conveyor, mixer, mesin pengemas, lantai licin, dan kebisingan.</p>
                         <p><strong>Pencegahan:</strong> guard mesin, rotasi kerja, SOP, dan marka anti-slip.</p>
                     </article>
 
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="300">
                         <div class="risk-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                         <h3>Boiler & Utilitas</h3>
                         <p><strong>Bahaya:</strong> tekanan tinggi, pipa panas, panel listrik, dan uap panas.</p>
                         <p><strong>Pencegahan:</strong> inspeksi boiler, isolasi termal, grounding, dan LOTO.</p>
                     </article>
 
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="100">
                         <div class="risk-icon"><i class="fa-solid fa-flask"></i></div>
                         <h3>Laboratorium QC</h3>
                         <p><strong>Bahaya:</strong> reagen kimia, glassware, oven/autoklaf, dan kontaminasi sampel.</p>
                         <p><strong>Pencegahan:</strong> fume hood, eyewash, shower darurat, dan SOP lab.</p>
                     </article>
 
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="200">
                         <div class="risk-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
                         <h3>Area Pengovenan</h3>
                         <p><strong>Bahaya:</strong> suhu tinggi, gas buang, uap panas, dan debu tepung.</p>
                         <p><strong>Pencegahan:</strong> ventilasi, exhaust fan, pelindung oven, and rotasi kerja.</p>
                     </article>
 
-                    <article class="risk-card">
+                    <article class="risk-card" data-aos="flip-left" data-aos-delay="300">
                         <div class="risk-icon"><i class="fa-solid fa-snowflake"></i></div>
                         <h3>Cold Storage</h3>
                         <p><strong>Bahaya:</strong> suhu rendah, lantai beku, pintu otomatis, dan risiko terkunci.</p>
@@ -255,7 +260,7 @@
 
         <section id="pengendalian" class="page-section control-page">
             <div class="container">
-                <div class="page-heading center-heading">
+                <div class="page-heading center-heading" data-aos="fade-up">
                     <p class="section-chip">Pengendalian Risiko</p>
                     <h2>Hirarki Pengendalian Bahaya</h2>
                     <p>
@@ -265,31 +270,31 @@
                 </div>
 
                 <div class="control-steps">
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="100">
                         <span>1</span>
                         <h3>Eliminasi</h3>
                         <p>Menghilangkan sumber bahaya dari proses kerja.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="200">
                         <span>2</span>
                         <h3>Substitusi</h3>
                         <p>Mengganti bahan, alat, atau proses dengan alternatif yang lebih aman.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="300">
                         <span>3</span>
                         <h3>Rekayasa Teknik</h3>
                         <p>Memasang guard mesin, ventilasi, isolasi panas, dan pembatas area.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="400">
                         <span>4</span>
                         <h3>Administrasi</h3>
                         <p>SOP, pelatihan, izin kerja, inspeksi, rambu, dan briefing K3.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="500">
                         <span>5</span>
                         <h3>APD</h3>
                         <p>Perlindungan terakhir sesuai potensi bahaya kerja.</p>
@@ -301,7 +306,7 @@
         <section id="apd" class="page-section apd-page">
             <div class="container">
                 <div class="split-layout reverse-layout">
-                    <div class="split-copy">
+                    <div class="split-copy" data-aos="fade-left">
                         <p class="section-chip">Alat Pelindung Diri</p>
                         <h2>APD sebagai Garis Pertahanan Terakhir.</h2>
                         <p>
@@ -318,38 +323,38 @@
                 </div>
 
                 <div class="apd-grid">
-                    <article>
-                        <span><i class="fa-solid fa-helmet-safety"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="100">
+                        <span class="hover-icon"><i class="fa-solid fa-helmet-safety"></i></span>
                         <h3>Helm Safety</h3>
                         <p>Melindungi kepala dari benturan dan benda jatuh.</p>
                     </article>
 
-                    <article>
-                        <span><i class="fa-solid fa-shoe-prints"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="200">
+                        <span class="hover-icon"><i class="fa-solid fa-shoe-prints"></i></span>
                         <h3>Sepatu Safety</h3>
                         <p>Melindungi kaki dari benda berat, lantai licin, dan bahan kimia.</p>
                     </article>
 
-                    <article>
-                        <span><i class="fa-solid fa-ear-listen"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="300">
+                        <span class="hover-icon"><i class="fa-solid fa-ear-listen"></i></span>
                         <h3>Earplug / Earmuff</h3>
                         <p>Mengurangi paparan kebisingan mesin produksi.</p>
                     </article>
 
-                    <article>
-                        <span><i class="fa-solid fa-glasses"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="400">
+                        <span class="hover-icon"><i class="fa-solid fa-glasses"></i></span>
                         <h3>Kacamata Safety</h3>
                         <p>Melindungi mata dari debu, percikan, dan partikel kecil.</p>
                     </article>
 
-                    <article>
-                        <span><i class="fa-solid fa-mask"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="500">
+                        <span class="hover-icon"><i class="fa-solid fa-mask"></i></span>
                         <h3>Masker / Respirator</h3>
                         <p>Melindungi pernapasan dari debu tepung, uap, gas, dan bahan kimia.</p>
                     </article>
 
-                    <article>
-                        <span><i class="fa-solid fa-mitten"></i></span>
+                    <article data-aos="zoom-in" data-aos-delay="600">
+                        <span class="hover-icon"><i class="fa-solid fa-mitten"></i></span>
                         <h3>Sarung Tangan</h3>
                         <p>Melindungi tangan dari panas, bahan kimia, benda tajam, dan jepitan.</p>
                     </article>
@@ -360,7 +365,7 @@
 
     <section id="ergonomi" class="page-section ergo-page">
         <div class="container">
-            <div class="page-heading center-heading">
+            <div class="page-heading center-heading" data-aos="fade-up">
                 <p class="section-chip">Ergonomi & Lingkungan Kerja</p>
                 <h2>Tempat Kerja yang Aman Harus Nyaman Digunakan.</h2>
                 <p>
@@ -370,26 +375,26 @@
             </div>
 
             <div class="ergo-board">
-                <article>
-                    <span><i class="fa-solid fa-lightbulb"></i></span>
+                <article data-aos="fade-up" data-aos-delay="100">
+                    <span class="hover-icon"><i class="fa-solid fa-lightbulb"></i></span>
                     <h3>Pencahayaan</h3>
                     <p>Cahaya harus cukup terang, tidak menyilaukan, dan mendukung ketelitian kerja.</p>
                 </article>
 
-                <article>
-                    <span><i class="fa-solid fa-temperature-half"></i></span>
+                <article data-aos="fade-up" data-aos-delay="200">
+                    <span class="hover-icon"><i class="fa-solid fa-temperature-half"></i></span>
                     <h3>Suhu & Kelembaban</h3>
                     <p>Area panas dan dingin perlu ventilasi, APD, rotasi kerja, dan batas waktu paparan.</p>
                 </article>
 
-                <article>
-                    <span><i class="fa-solid fa-chair"></i></span>
+                <article data-aos="fade-up" data-aos-delay="300">
+                    <span class="hover-icon"><i class="fa-solid fa-chair"></i></span>
                     <h3>Postur Kerja</h3>
                     <p>Posisi berdiri lama, gerakan berulang, dan angkat manual harus dikendalikan.</p>
                 </article>
 
-                <article>
-                    <span><i class="fa-solid fa-brain"></i></span>
+                <article data-aos="fade-up" data-aos-delay="400">
+                    <span class="hover-icon"><i class="fa-solid fa-brain"></i></span>
                     <h3>Nonfisik</h3>
                     <p>Iklim kerja yang kondusif menurunkan stres dan meningkatkan performa pekerja.</p>
                 </article>
@@ -400,7 +405,7 @@
     <section id="darurat" class="page-section emergency-page">
         <div class="container">
             <div class="split-layout">
-                <div class="split-copy light-copy">
+                <div class="split-copy light-copy" data-aos="fade-right">
                     <p class="section-chip">Tanggap Darurat</p>
                     <h2>Respon Cepat Dapat Menyelamatkan Nyawa.</h2>
                     <p>
@@ -410,25 +415,25 @@
                 </div>
 
                 <div class="emergency-cards">
-                    <article>
+                    <article data-aos="fade-left" data-aos-delay="100">
                         <span>1</span>
                         <h3>Nilai Situasi</h3>
                         <p>Amati kondisi lokasi, kenali bahaya susulan, dan jangan panik.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-left" data-aos-delay="200">
                         <span>2</span>
                         <h3>Amankan Tempat</h3>
                         <p>Putus sumber bahaya, gunakan APD, dan beri tanda area berbahaya.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-left" data-aos-delay="300">
                         <span>3</span>
                         <h3>Beri Pertolongan</h3>
                         <p>Periksa kesadaran, pernapasan, sirkulasi, dan berikan P3K sesuai kemampuan.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-left" data-aos-delay="400">
                         <span>4</span>
                         <h3>Cari Bantuan</h3>
                         <p>Hubungi petugas medis, tim tanggap darurat, atau rumah sakit terdekat.</p>
@@ -440,7 +445,7 @@
 
     <section id="organisasi" class="page-section org-page">
         <div class="container">
-            <div class="page-heading center-heading">
+            <div class="page-heading center-heading" data-aos="fade-up">
                 <p class="section-chip">Struktur Organisasi K3</p>
                 <h2>Struktur dan Tupoksi Tim K3</h2>
                 <p>
@@ -450,37 +455,37 @@
             </div>
 
             <div class="org-chart">
-                <div class="org-node org-top">Manajemen Puncak / Direktur</div>
-                <div class="org-connector"></div>
-                <div class="org-node org-mid">Manager K3 / Ketua P2K3</div>
+                <div class="org-node org-top" data-aos="zoom-in">Manajemen Puncak / Direktur</div>
+                <div class="org-connector" data-aos="fade-down" data-aos-delay="100"></div>
+                <div class="org-node org-mid" data-aos="zoom-in" data-aos-delay="200">Manager K3 / Ketua P2K3</div>
 
                 <div class="org-grid">
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="100">
                         <h3>Kepala Operasi K3</h3>
                         <p>Mengawasi penerapan K3 di produksi, gudang, boiler, QC, cold storage, dan loading dock.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="200">
                         <h3>Kepala Audit & Evaluasi K3</h3>
                         <p>Melakukan inspeksi, audit kepatuhan, evaluasi program, dan tindak lanjut temuan.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="300">
                         <h3>Supervisor Implementasi</h3>
                         <p>Memastikan SOP, APD, rambu K3, dan prosedur kerja aman dijalankan di lapangan.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="400">
                         <h3>Supervisor Planning</h3>
                         <p>Menyusun program K3, jadwal pelatihan, inspeksi, dan simulasi tanggap darurat.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="500">
                         <h3>Tim P3K & Tanggap Darurat</h3>
                         <p>Menangani pertolongan pertama, evakuasi, kebakaran, dan koordinasi bantuan medis.</p>
                     </article>
 
-                    <article>
+                    <article data-aos="fade-up" data-aos-delay="600">
                         <h3>Pekerja / Operator</h3>
                         <p>Mematuhi SOP, menggunakan APD, menjaga 5R, dan melaporkan bahaya atau near miss.</p>
                     </article>
@@ -491,7 +496,7 @@
 
     <section id="smk3" class="page-section smk3-page">
         <div class="container">
-            <div class="page-heading center-heading">
+            <div class="page-heading center-heading" data-aos="fade-up">
                 <p class="section-chip">Sistem Manajemen K3</p>
                 <h2>SMK3 untuk Tempat Kerja Aman, Efisien, dan Produktif.</h2>
                 <p>
@@ -501,31 +506,31 @@
             </div>
 
             <div class="smk3-flow">
-                <article>
+                <article data-aos="fade-right" data-aos-delay="100">
                     <span>01</span>
                     <h3>Komitmen</h3>
                     <p>Kebijakan, sasaran, tanggung jawab, dan sumber daya K3 ditetapkan.</p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-delay="200">
                     <span>02</span>
                     <h3>Perencanaan</h3>
                     <p>Identifikasi bahaya, penilaian risiko, regulasi, dan program K3 disusun.</p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-delay="300">
                     <span>03</span>
                     <h3>Implementasi</h3>
                     <p>SOP, pelatihan, komunikasi, APD, dan pengendalian operasional dijalankan.</p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-delay="400">
                     <span>04</span>
                     <h3>Evaluasi</h3>
                     <p>Inspeksi, audit, investigasi insiden, dan tindakan perbaikan dilakukan.</p>
                 </article>
 
-                <article>
+                <article data-aos="fade-right" data-aos-delay="500">
                     <span>05</span>
                     <h3>Dokumentasi</h3>
                     <p>Manual, prosedur, instruksi kerja, formulir, checklist, dan rekaman dikendalikan.</p>
@@ -536,7 +541,7 @@
 
     <section id="maps" class="page-section maps-page">
         <div class="container">
-            <div class="page-heading center-heading">
+            <div class="page-heading center-heading" data-aos="fade-up">
                 <p class="section-chip">Safety Maps</p>
                 <h2>Peta Keselamatan Area Kerja</h2>
                 <p>
@@ -546,7 +551,7 @@
             </div>
 
             <div class="maps-layout">
-                <article class="map-card">
+                <article class="map-card" data-aos="zoom-in" data-aos-delay="100">
                     <div class="map-title">
                         <span>01</span>
                         <h3>Denah Lantai 1</h3>
@@ -554,7 +559,7 @@
                     <img src="{{ asset('assets/img/safety-map-lantai-1.png') }}" alt="Safety map lantai 1 PT Mayora Indah Tbk">
                 </article>
 
-                <article class="map-card">
+                <article class="map-card" data-aos="zoom-in" data-aos-delay="200">
                     <div class="map-title">
                         <span>02</span>
                         <h3>Denah Lantai 2</h3>
@@ -567,7 +572,7 @@
 
     <section class="page-section closing-page">
         <div class="container">
-            <div class="closing-box">
+            <div class="closing-box" data-aos="zoom-out-up">
                 <p class="section-chip">Kesimpulan</p>
                 <h2>Keselamatan Kerja adalah Tanggung Jawab Bersama.</h2>
                 <p>
@@ -638,5 +643,33 @@
         </div>
     </footer>
 
-</div> </body>
+    <!-- Tombol Back to Top -->
+    <a href="#home" id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+</div> <!-- /page-wrapper -->
+
+<!-- AOS Animation Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    // Inisialisasi AOS (Animate On Scroll)
+    AOS.init({
+        duration: 800, // Durasi animasi dalam milidetik
+        once: true, // Animasi hanya berjalan satu kali saat di-scroll
+        offset: 100 // Jarak elemen dari bawah layar sebelum animasi mulai
+    });
+
+    // Logika Tombol Back to Top
+    const backToTopBtn = document.getElementById("backToTop");
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 400) {
+            backToTopBtn.classList.add("show");
+        } else {
+            backToTopBtn.classList.remove("show");
+        }
+    });
+</script>
+
+</body>
 </html>
