@@ -385,22 +385,217 @@ section, header, footer { width: 100%; }
 .emergency-cards h3 { font-size: 18px; margin-bottom: 6px; font-weight: 700; }
 .emergency-cards p { font-size: 14px; }
 
-/* ORGANIZATION CHART & SMK3 */
-.org-chart { text-align: center; }
-.org-node {
-    display: inline-flex; padding: 10px 24px; border-radius: 99px; color: var(--white);
-    font-weight: 700; font-size: 15px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+/* ==========================================================================
+   ORGANIZATION CHART (HIERARCHY TREE) - FIXED 100%
+   ========================================================================== */
+.org-page {
+    background: linear-gradient(180deg, var(--white), var(--soft));
 }
-.org-top { background: var(--red-deep); }
-.org-mid { background: var(--green); }
-.org-connector { width: 2px; height: 32px; margin: 0 auto; background: rgba(198, 40, 40, 0.15); }
-.org-grid { margin-top: 32px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; text-align: left; }
-.org-grid article {
-    padding: 22px; border-radius: var(--radius-md); background: var(--white);
-    border: 1px solid var(--line); box-shadow: var(--shadow);
+
+.org-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; 
+    padding: 20px 20px 60px 20px;
 }
-.org-grid h3 { color: var(--red-deep); font-size: 16px; margin-bottom: 8px; font-weight: 700; }
-.org-grid p { font-size: 13px; }
+
+/* Reset Spacing Khusus Bagan */
+.org-tree, .org-tree ul, .org-tree li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Base UL Cabang */
+.org-tree ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; 
+    position: relative;
+}
+
+/* Hapus padding atas untuk root (paling atas) agar tidak ada jarak kosong */
+ul.org-tree {
+    padding-top: 0;
+}
+
+/* Garis Lurus Ke Bawah dari Induk ke Level Cabang */
+.org-tree ul::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    border-left: 2px solid var(--red);
+    width: 0; 
+    height: 30px;
+    z-index: 1;
+}
+
+/* Sembunyikan garis atas di ujung paling puncak */
+ul.org-tree::before {
+    display: none;
+}
+
+/* Kontainer tiap Kotak Jabatan */
+.org-tree li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px 0 10px;
+    position: relative;
+}
+
+/* Garis Horizontal Kiri/Kanan & Garis Vertikal turun ke Kartu */
+.org-tree li::before, .org-tree li::after {
+    content: '';
+    position: absolute;
+    top: 0; 
+    width: 50%; 
+    height: 30px;
+    border-top: 2px solid var(--red);
+    z-index: 1;
+}
+
+/* Sisi Kiri */
+.org-tree li::before {
+    right: 50%;
+}
+
+/* Sisi Kanan (sekaligus menggambar garis vertikal turun ke Kartu) */
+.org-tree li::after {
+    left: 50%;
+    border-left: 2px solid var(--red); 
+}
+
+/* Bersihkan garis horizontal terluar untuk anak pertama dan terakhir */
+.org-tree li:first-child::before, .org-tree li:last-child::after {
+    border: 0 none;
+}
+
+/* Kembalikan garis vertikal turun untuk anak paling kanan (last-child) */
+.org-tree li:last-child::before {
+    border-right: 2px solid var(--red);
+}
+
+/* Jika hanya 1 cabang (only-child), hilangkan garis horizontal sama sekali */
+.org-tree li:only-child::before, .org-tree li:only-child::after {
+    display: none;
+}
+
+/* Jika anak tunggal, hapus padding atas agar garis induk langsung menyentuh kartu */
+.org-tree li:only-child {
+    padding-top: 0;
+}
+
+/* ----------------------------------
+   KARTU JABATAN (BOX STYLING)
+   ---------------------------------- */
+.org-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    width: 250px; /* Lebar seragam agar bagan seimbang */
+    text-align: left;
+    position: relative;
+    z-index: 2; /* Memastikan kartu berada DI ATAS garis */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--red);
+}
+
+.org-card h3 {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: var(--white);
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.org-card p {
+    font-size: 12px;
+    color: var(--gray);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Warna Headings Card */
+.top-level h3 { background: var(--red-deep); }
+.mid-level h3 { background: var(--red); }
+.staff-level h3 { background: var(--green); }
+.sub-level h3 { background: var(--orange); }
+.base-level h3 { background: var(--gray); }
+
+/* ----------------------------------
+   LEVEL PEKERJA (GARIS PUTUS-PUTUS)
+   ---------------------------------- */
+.worker-level {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.worker-level::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 2px dashed var(--red);
+    height: 40px;
+    z-index: 1;
+}
+
+/* ----------------------------------
+   RESPONSIF (MOBILE & TABLET)
+   Berubah jadi daftar menurun agar tidak berantakan di layar kecil
+   ---------------------------------- */
+@media (max-width: 900px) {
+    .org-chart-wrapper {
+        justify-content: flex-start; 
+    }
+    .org-tree ul {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .org-tree li {
+        padding: 20px 0 0 0;
+    }
+    /* Sembunyikan garis bercabang versi desktop */
+    .org-tree ul::before, .org-tree li::before, .org-tree li::after {
+        display: none !important;
+    }
+    /* Ganti dengan satu garis lurus ke bawah di tengah layar */
+    .org-tree li::before {
+        display: block !important;
+        content: '';
+        position: absolute;
+        top: 0; left: 50%;
+        transform: translateX(-50%);
+        border-left: 2px solid var(--red);
+        height: 20px;
+        width: 0;
+        z-index: 1;
+    }
+    /* Hapus garis menonjol ke atas di elemen pertama */
+    .org-tree > li:first-child::before {
+        display: none !important;
+    }
+    .org-card {
+        width: 100%;
+        min-width: 260px;
+        max-width: 320px;
+    }
+}
 
 .smk3-flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
 .smk3-flow article {
@@ -470,6 +665,67 @@ section, header, footer { width: 100%; }
 .closing-box h2 { font-size: clamp(24px, 3.8vw, 36px); font-weight: 800; margin-bottom: 16px; }
 .closing-box p { max-width: 700px; margin: 0 auto 24px; color: rgba(255, 255, 255, 0.9); font-size: 15px; }
 
+/* ==========================================================================
+   YOUTUBE VIDEOS REFERENCES SECTION
+   ========================================================================== */
+.video-page { 
+    background: linear-gradient(180deg, var(--white) 0%, var(--soft) 100%); 
+}
+
+.video-layout { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 24px; 
+}
+
+.video-card {
+    padding: 20px; 
+    border-radius: var(--radius-lg); 
+    background: var(--white);
+    border: 1px solid var(--line); 
+    box-shadow: var(--shadow);
+}
+
+.video-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+    border-color: rgba(198, 40, 40, 0.25);
+}
+
+.video-title { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    margin-bottom: 16px; 
+}
+
+.video-title span {
+    width: 32px; 
+    height: 32px; 
+    border-radius: 50%; 
+    display: grid; 
+    place-items: center;
+    background: var(--red); 
+    color: var(--white); 
+    font-size: 13px; 
+    font-weight: 700;
+}
+
+.video-title h3 { 
+    color: var(--red-deep); 
+    font-size: 16px; 
+    font-weight: 700; 
+}
+
+.video-card iframe {
+    width: 100%; 
+    aspect-ratio: 16 / 9; /* Menjaga aspect ratio video standar YouTube tetap 16:9 */
+    border-radius: var(--radius-md); 
+    border: 1px solid var(--line);
+    background: var(--soft); 
+    display: block;
+}
+
 /* FOOTER */
 .site-footer { background: #0f172a; color: #94a3b8; padding-top: 56px; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 0.8fr 0.8fr; gap: 32px; padding-bottom: 32px; }
@@ -500,7 +756,7 @@ section, header, footer { width: 100%; }
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width: 1080px) {
     .split-layout, .profile-layout { grid-template-columns: 1fr; gap: 40px; }
-    .timeline-grid, .ergo-board, .smk3-flow, .control-steps { grid-template-columns: repeat(2, 1fr); }
+    .timeline-grid, .ergo-board, .smk3-flow, .control-steps, .video-layout { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: 1fr 1fr; }
     .footer-brand { grid-column: 1 / -1; }
 }
@@ -509,14 +765,14 @@ section, header, footer { width: 100%; }
     .container { padding-left: 24px; padding-right: 24px; }
     .nav-wrapper { flex-direction: column; padding: 16px 0; gap: 14px; }
     .nav-menu { width: 100%; justify-content: center; flex-wrap: wrap; gap: 12px; }
-    .profile-cards, .pillar-grid, .risk-layout, .apd-grid, .emergency-cards, .org-grid, .maps-layout { grid-template-columns: repeat(2, 1fr); }
+    .profile-cards, .pillar-grid, .risk-layout, .apd-grid, .emergency-cards, .org-grid, .maps-layout, .video-layout { grid-template-columns: repeat(2, 1fr); }
     .page-section { padding: 60px 0; }
     .image-hero { min-height: 500px; height: auto; }
 }
 
 @media (max-width: 680px) {
     .container { padding-left: 16px; padding-right: 16px; }
-    .profile-cards, .pillar-grid, .timeline-grid, .risk-layout, .control-steps, .apd-grid, .ergo-board, .emergency-cards, .org-grid, .smk3-flow, .maps-layout, .footer-grid { grid-template-columns: 1fr; }
+    .profile-cards, .pillar-grid, .timeline-grid, .risk-layout, .control-steps, .apd-grid, .ergo-board, .emergency-cards, .org-grid, .smk3-flow, .maps-layout, .footer-grid, .video-layout { grid-template-columns: 1fr; }
     .hero-glass-card { padding: 30px 20px; }
     .brand { font-size: 20px; }
     .brand img { width: 75px; }

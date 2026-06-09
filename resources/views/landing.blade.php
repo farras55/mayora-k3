@@ -6,24 +6,20 @@
     <title>K3 PT Mayora Indah Tbk</title>
     <meta name="description" content="Landing page edukasi Keselamatan dan Kesehatan Kerja PT Mayora Indah Tbk sebagai simulasi akademik.">
     
-    <!-- Link FontAwesome untuk Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Link AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
-<!-- BINGKAI UTAMA HALAMAN -->
 <div class="page-wrapper">
 
     <header class="site-header">
         <div class="container nav-wrapper">
             <a href="#home" class="brand">
                 <img src="/assets/img/logo-mayora.png" alt="Logo Mayora">
-                <span>K3 Mayora</span>
             </a>
 
             <nav class="nav-menu">
@@ -34,7 +30,7 @@
                 <a href="#organisasi">Organisasi</a>
                 <a href="#smk3">SMK3</a>
                 <a href="#maps">Safety Maps</a>
-            </nav>
+                <a href="#video">Referensi Video</a> </nav>
         </div>
     </header>
 
@@ -50,7 +46,7 @@
             
             <div class="container hero-container">
                 <div class="hero-glass-card" data-aos="fade-up" data-aos-duration="1000">
-                    <span class="section-chip hero-chip">Simulasi Akademik K3</span>
+                    <span class="section-chip hero-chip">Simulasi Academic K3</span>
                     <h1>Budaya K3: Prioritas Utama Operasional Mayora</h1>
                     <p>Komitmen nyata PT Mayora Indah Tbk dalam mewujudkan lingkungan kerja manufaktur FMCG yang aman, sehat, dan produktif demi zero accident.</p>
                     <div class="hero-buttons">
@@ -230,7 +226,7 @@
                     <article class="risk-card" data-aos="flip-left" data-aos-delay="300">
                         <div class="risk-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                         <h3>Boiler & Utilitas</h3>
-                        <p><strong>Bahaya:</strong> tekanan tinggi, pipa panas, panel listrik, dan uap panas.</p>
+                        <p><strong>Bahaya:</strong> tekanan tinggi, pipa panas, panel listrik, and uap panas.</p>
                         <p><strong>Pencegahan:</strong> inspeksi boiler, isolasi termal, grounding, dan LOTO.</p>
                     </article>
 
@@ -315,275 +311,346 @@
                             dengan jenis bahaya di area kerja.
                         </p>
 
-                    <div class="apd-note">
-                        <strong>Catatan:</strong>
-                        APD wajib digunakan di area yang memiliki bahaya mekanis, fisik, kimia,
-                        energi, radiasi, kebisingan, suhu ekstrem, dan potensi cedera tubuh.
+                        <div class="apd-note">
+                            <strong>Catatan:</strong>
+                            APD wajib digunakan di area yang memiliki bahaya mekanis, fisik, kimia,
+                            energi, radiasi, kebisingan, suhu ekstrem, dan potensi cedera tubuh.
+                        </div>
+                    </div>
+
+                    <div class="apd-grid">
+                        <article data-aos="zoom-in" data-aos-delay="100">
+                            <span class="hover-icon"><i class="fa-solid fa-helmet-safety"></i></span>
+                            <h3>Helm Safety</h3>
+                            <p>Melindungi kepala dari benturan dan benda jatuh.</p>
+                        </article>
+
+                        <article data-aos="zoom-in" data-aos-delay="200">
+                            <span class="hover-icon"><i class="fa-solid fa-shoe-prints"></i></span>
+                            <h3>Sepatu Safety</h3>
+                            <p>Melindungi kaki dari benda berat, lantai licin, dan bahan kimia.</p>
+                        </article>
+
+                        <article data-aos="zoom-in" data-aos-delay="300">
+                            <span class="hover-icon"><i class="fa-solid fa-ear-listen"></i></span>
+                            <h3>Earplug / Earmuff</h3>
+                            <p>Mengurangi paparan kebisingan mesin produksi.</p>
+                        </article>
+
+                        <article data-aos="zoom-in" data-aos-delay="400">
+                            <span class="hover-icon"><i class="fa-solid fa-glasses"></i></span>
+                            <h3>Kacamata Safety</h3>
+                            <p>Melindungi mata dari debu, percikan, dan partikel kecil.</p>
+                        </article>
+
+                        <article data-aos="zoom-in" data-aos-delay="500">
+                            <span class="hover-icon"><i class="fa-solid fa-mask"></i></span>
+                            <h3>Masker / Respirator</h3>
+                            <p>Melindungi pernapasan dari debu tepung, uap, gas, dan bahan kimia.</p>
+                        </article>
+
+                        <article data-aos="zoom-in" data-aos-delay="600">
+                            <span class="hover-icon"><i class="fa-solid fa-mitten"></i></span>
+                            <h3>Sarung Tangan</h3>
+                            <p>Melindungi tangan dari panas, bahan kimia, benda tajam, dan jepitan.</p>
+                        </article>
                     </div>
                 </div>
-
-                <div class="apd-grid">
-                    <article data-aos="zoom-in" data-aos-delay="100">
-                        <span class="hover-icon"><i class="fa-solid fa-helmet-safety"></i></span>
-                        <h3>Helm Safety</h3>
-                        <p>Melindungi kepala dari benturan dan benda jatuh.</p>
-                    </article>
-
-                    <article data-aos="zoom-in" data-aos-delay="200">
-                        <span class="hover-icon"><i class="fa-solid fa-shoe-prints"></i></span>
-                        <h3>Sepatu Safety</h3>
-                        <p>Melindungi kaki dari benda berat, lantai licin, dan bahan kimia.</p>
-                    </article>
-
-                    <article data-aos="zoom-in" data-aos-delay="300">
-                        <span class="hover-icon"><i class="fa-solid fa-ear-listen"></i></span>
-                        <h3>Earplug / Earmuff</h3>
-                        <p>Mengurangi paparan kebisingan mesin produksi.</p>
-                    </article>
-
-                    <article data-aos="zoom-in" data-aos-delay="400">
-                        <span class="hover-icon"><i class="fa-solid fa-glasses"></i></span>
-                        <h3>Kacamata Safety</h3>
-                        <p>Melindungi mata dari debu, percikan, dan partikel kecil.</p>
-                    </article>
-
-                    <article data-aos="zoom-in" data-aos-delay="500">
-                        <span class="hover-icon"><i class="fa-solid fa-mask"></i></span>
-                        <h3>Masker / Respirator</h3>
-                        <p>Melindungi pernapasan dari debu tepung, uap, gas, dan bahan kimia.</p>
-                    </article>
-
-                    <article data-aos="zoom-in" data-aos-delay="600">
-                        <span class="hover-icon"><i class="fa-solid fa-mitten"></i></span>
-                        <h3>Sarung Tangan</h3>
-                        <p>Melindungi tangan dari panas, bahan kimia, benda tajam, dan jepitan.</p>
-                    </article>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="ergonomi" class="page-section ergo-page">
-        <div class="container">
-            <div class="page-heading center-heading" data-aos="fade-up">
-                <p class="section-chip">Ergonomi & Lingkungan Kerja</p>
-                <h2>Tempat Kerja yang Aman Harus Nyaman Digunakan.</h2>
-                <p>
-                    Ergonomi membantu menyesuaikan pekerjaan, alat, prosedur, dan lingkungan kerja
-                    dengan kemampuan serta keterbatasan manusia.
-                </p>
-            </div>
-
-            <div class="ergo-board">
-                <article data-aos="fade-up" data-aos-delay="100">
-                    <span class="hover-icon"><i class="fa-solid fa-lightbulb"></i></span>
-                    <h3>Pencahayaan</h3>
-                    <p>Cahaya harus cukup terang, tidak menyilaukan, dan mendukung ketelitian kerja.</p>
-                </article>
-
-                <article data-aos="fade-up" data-aos-delay="200">
-                    <span class="hover-icon"><i class="fa-solid fa-temperature-half"></i></span>
-                    <h3>Suhu & Kelembaban</h3>
-                    <p>Area panas dan dingin perlu ventilasi, APD, rotasi kerja, dan batas waktu paparan.</p>
-                </article>
-
-                <article data-aos="fade-up" data-aos-delay="300">
-                    <span class="hover-icon"><i class="fa-solid fa-chair"></i></span>
-                    <h3>Postur Kerja</h3>
-                    <p>Posisi berdiri lama, gerakan berulang, dan angkat manual harus dikendalikan.</p>
-                </article>
-
-                <article data-aos="fade-up" data-aos-delay="400">
-                    <span class="hover-icon"><i class="fa-solid fa-brain"></i></span>
-                    <h3>Nonfisik</h3>
-                    <p>Iklim kerja yang kondusif menurunkan stres dan meningkatkan performa pekerja.</p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section id="darurat" class="page-section emergency-page">
-        <div class="container">
-            <div class="split-layout">
-                <div class="split-copy light-copy" data-aos="fade-right">
-                    <p class="section-chip">Tanggap Darurat</p>
-                    <h2>Respon Cepat Dapat Menyelamatkan Nyawa.</h2>
+        <section id="ergonomi" class="page-section ergo-page">
+            <div class="container">
+                <div class="page-heading center-heading" data-aos="fade-up">
+                    <p class="section-chip">Ergonomi & Lingkungan Kerja</p>
+                    <h2>Tempat Kerja yang Aman Harus Nyaman Digunakan.</h2>
                     <p>
-                        Keadaan darurat seperti kecelakaan kerja, kebakaran, tumpahan bahan kimia,
-                        dan sengatan listrik harus ditangani dengan cepat, tepat, dan terkoordinasi.
+                        Ergonomi membantu menyesuaikan pekerjaan, alat, prosedur, dan lingkungan kerja
+                        dengan kemampuan serta keterbatasan manusia.
                     </p>
                 </div>
 
-                <div class="emergency-cards">
-                    <article data-aos="fade-left" data-aos-delay="100">
-                        <span>1</span>
-                        <h3>Nilai Situasi</h3>
-                        <p>Amati kondisi lokasi, kenali bahaya susulan, dan jangan panik.</p>
-                    </article>
-
-                    <article data-aos="fade-left" data-aos-delay="200">
-                        <span>2</span>
-                        <h3>Amankan Tempat</h3>
-                        <p>Putus sumber bahaya, gunakan APD, dan beri tanda area berbahaya.</p>
-                    </article>
-
-                    <article data-aos="fade-left" data-aos-delay="300">
-                        <span>3</span>
-                        <h3>Beri Pertolongan</h3>
-                        <p>Periksa kesadaran, pernapasan, sirkulasi, dan berikan P3K sesuai kemampuan.</p>
-                    </article>
-
-                    <article data-aos="fade-left" data-aos-delay="400">
-                        <span>4</span>
-                        <h3>Cari Bantuan</h3>
-                        <p>Hubungi petugas medis, tim tanggap darurat, atau rumah sakit terdekat.</p>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="organisasi" class="page-section org-page">
-        <div class="container">
-            <div class="page-heading center-heading" data-aos="fade-up">
-                <p class="section-chip">Struktur Organisasi K3</p>
-                <h2>Struktur dan Tupoksi Tim K3</h2>
-                <p>
-                    Struktur organisasi memastikan penerapan K3 memiliki pembagian tanggung jawab,
-                    pengawasan, evaluasi, dan tindak lanjut yang jelas.
-                </p>
-            </div>
-
-            <div class="org-chart">
-                <div class="org-node org-top" data-aos="zoom-in">Manajemen Puncak / Direktur</div>
-                <div class="org-connector" data-aos="fade-down" data-aos-delay="100"></div>
-                <div class="org-node org-mid" data-aos="zoom-in" data-aos-delay="200">Manager K3 / Ketua P2K3</div>
-
-                <div class="org-grid">
+                <div class="ergo-board">
                     <article data-aos="fade-up" data-aos-delay="100">
-                        <h3>Kepala Operasi K3</h3>
-                        <p>Mengawasi penerapan K3 di produksi, gudang, boiler, QC, cold storage, dan loading dock.</p>
+                        <span class="hover-icon"><i class="fa-solid fa-lightbulb"></i></span>
+                        <h3>Pencahayaan</h3>
+                        <p>Cahaya harus cukup terang, tidak menyilaukan, dan mendukung ketelitian kerja.</p>
                     </article>
 
                     <article data-aos="fade-up" data-aos-delay="200">
-                        <h3>Kepala Audit & Evaluasi K3</h3>
-                        <p>Melakukan inspeksi, audit kepatuhan, evaluasi program, dan tindak lanjut temuan.</p>
+                        <span class="hover-icon"><i class="fa-solid fa-temperature-half"></i></span>
+                        <h3>Suhu & Kelembaban</h3>
+                        <p>Area panas dan dingin perlu ventilasi, APD, rotasi kerja, dan batas waktu paparan.</p>
                     </article>
 
                     <article data-aos="fade-up" data-aos-delay="300">
-                        <h3>Supervisor Implementasi</h3>
-                        <p>Memastikan SOP, APD, rambu K3, dan prosedur kerja aman dijalankan di lapangan.</p>
+                        <span class="hover-icon"><i class="fa-solid fa-chair"></i></span>
+                        <h3>Postur Kerja</h3>
+                        <p>Posisi berdiri lama, gerakan berulang, dan angkat manual harus dikendalikan.</p>
                     </article>
 
                     <article data-aos="fade-up" data-aos-delay="400">
-                        <h3>Supervisor Planning</h3>
-                        <p>Menyusun program K3, jadwal pelatihan, inspeksi, dan simulasi tanggap darurat.</p>
-                    </article>
-
-                    <article data-aos="fade-up" data-aos-delay="500">
-                        <h3>Tim P3K & Tanggap Darurat</h3>
-                        <p>Menangani pertolongan pertama, evakuasi, kebakaran, dan koordinasi bantuan medis.</p>
-                    </article>
-
-                    <article data-aos="fade-up" data-aos-delay="600">
-                        <h3>Pekerja / Operator</h3>
-                        <p>Mematuhi SOP, menggunakan APD, menjaga 5R, dan melaporkan bahaya atau near miss.</p>
+                        <span class="hover-icon"><i class="fa-solid fa-brain"></i></span>
+                        <h3>Nonfisik</h3>
+                        <p>Iklim kerja yang kondusif menurunkan stres dan meningkatkan performa pekerja.</p>
                     </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="smk3" class="page-section smk3-page">
-        <div class="container">
-            <div class="page-heading center-heading" data-aos="fade-up">
-                <p class="section-chip">Sistem Manajemen K3</p>
-                <h2>SMK3 untuk Tempat Kerja Aman, Efisien, dan Produktif.</h2>
-                <p>
-                    SMK3 menjadi sistem terintegrasi untuk mengendalikan risiko kerja melalui komitmen,
-                    perencanaan, implementasi, evaluasi, dokumentasi, dan perbaikan berkelanjutan.
-                </p>
+        <section id="darurat" class="page-section emergency-page">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-copy light-copy" data-aos="fade-right">
+                        <p class="section-chip">Tanggap Darurat</p>
+                        <h2>Respon Cepat Dapat Menyelamatkan Nyawa.</h2>
+                        <p>
+                            Keadaan darurat seperti kecelakaan kerja, kebakaran, tumpahan bahan kimia,
+                            dan sengatan listrik harus ditangani dengan cepat, tepat, dan terkoordinasi.
+                        </p>
+                    </div>
+
+                    <div class="emergency-cards">
+                        <article data-aos="fade-left" data-aos-delay="100">
+                            <span>1</span>
+                            <h3>Nilai Situasi</h3>
+                            <p>Amati kondisi lokasi, kenali bahaya susulan, dan jangan panik.</p>
+                        </article>
+
+                        <article data-aos="fade-left" data-aos-delay="200">
+                            <span>2</span>
+                            <h3>Amankan Tempat</h3>
+                            <p>Putus sumber bahaya, gunakan APD, dan beri tanda area berbahaya.</p>
+                        </article>
+
+                        <article data-aos="fade-left" data-aos-delay="300">
+                            <span>3</span>
+                            <h3>Beri Pertolongan</h3>
+                            <p>Periksa kesadaran, pernapasan, sirkulasi, dan berikan P3K sesuai kemampuan.</p>
+                        </article>
+
+                        <article data-aos="fade-left" data-aos-delay="400">
+                            <span>4</span>
+                            <h3>Cari Bantuan</h3>
+                            <p>Hubungi petugas medis, tim tanggap darurat, atau rumah sakit terdekat.</p>
+                        </article>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="smk3-flow">
-                <article data-aos="fade-right" data-aos-delay="100">
-                    <span>01</span>
-                    <h3>Komitmen</h3>
-                    <p>Kebijakan, sasaran, tanggung jawab, dan sumber daya K3 ditetapkan.</p>
-                </article>
+        <section id="organisasi" class="page-section org-page">
+            <div class="container">
+                <div class="page-heading center-heading" data-aos="fade-up">
+                    <p class="section-chip">Struktur Organisasi K3</p>
+                    <h2>Struktur dan Tupoksi Tim K3</h2>
+                    <p>
+                        Struktur organisasi memastikan penerapan K3 memiliki pembagian tanggung jawab,
+                        pengawasan, evaluasi, dan tindak lanjut yang jelas.
+                    </p>
+                </div>
 
-                <article data-aos="fade-right" data-aos-delay="200">
-                    <span>02</span>
-                    <h3>Perencanaan</h3>
-                    <p>Identifikasi bahaya, penilaian risiko, regulasi, dan program K3 disusun.</p>
-                </article>
+                <div class="org-chart-wrapper">
+                    <ul class="org-tree">
+                        <!-- LEVEL 1: Manajemen Puncak -->
+                        <li>
+                            <div class="org-card top-level" data-aos="zoom-in">
+                                <h3>Manajemen Puncak / Direktur</h3>
+                                <p>Menetapkan kebijakan K3, mengalokasikan sumber daya, dan bertanggung jawab penuh atas pelaksanaan K3 perusahaan.</p>
+                            </div>
+                            <ul>
+                                <!-- LEVEL 2: Manager K3 -->
+                                <li>
+                                    <div class="org-card mid-level" data-aos="fade-up" data-aos-delay="100">
+                                        <h3>Manager K3 / Ketua P2K3</h3>
+                                        <p>Memimpin P2K3, mengevaluasi sistem K3, melaporkan kinerja K3 ke direksi, dan memastikan kepatuhan regulasi.</p>
+                                    </div>
+                                    <ul>
+                                        <!-- LEVEL 3: Divisi Operasional K3 -->
+                                        <li>
+                                            <div class="org-card staff-level" data-aos="fade-up" data-aos-delay="200">
+                                                <h3>Kepala Operasi K3</h3>
+                                                <p>Mengawasi penerapan K3 harian di area produksi, gudang, boiler, QC, cold storage, dan loading dock.</p>
+                                            </div>
+                                            <ul>
+                                                <!-- LEVEL 4 -->
+                                                <li>
+                                                    <div class="org-card sub-level" data-aos="fade-up" data-aos-delay="300">
+                                                        <h3>Supervisor Implementasi</h3>
+                                                        <p>Memastikan SOP dipatuhi, APD digunakan dengan benar, dan rambu K3 terpasang sesuai standar di lapangan.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="org-card sub-level" data-aos="fade-up" data-aos-delay="400">
+                                                        <h3>Tim P3K & Darurat</h3>
+                                                        <p>Menangani pertolongan pertama, prosedur evakuasi, pemadaman api awal, dan koordinasi medis lanjutan.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <!-- LEVEL 3: Divisi Perencanaan & Evaluasi -->
+                                        <li>
+                                            <div class="org-card staff-level" data-aos="fade-up" data-aos-delay="300">
+                                                <h3>Kepala Audit & Evaluasi K3</h3>
+                                                <p>Melakukan inspeksi rutin, audit kepatuhan, evaluasi program SMK3, serta menindaklanjuti temuan insiden.</p>
+                                            </div>
+                                            <ul>
+                                                <!-- LEVEL 4 -->
+                                                <li>
+                                                    <div class="org-card sub-level" data-aos="fade-up" data-aos-delay="400">
+                                                        <h3>Supervisor Planning</h3>
+                                                        <p>Menyusun program K3 tahunan, jadwal pelatihan karyawan, inspeksi rutin, dan skenario simulasi darurat.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- LEVEL 5: Pekerja -->
+                <div class="worker-level" data-aos="fade-up" data-aos-delay="500">
+                    <div class="org-card base-level">
+                        <h3>Pekerja / Operator Area</h3>
+                        <p>Mematuhi SOP, menggunakan APD, menjaga budaya 5R, dan wajib melaporkan potensi bahaya atau <i>near miss</i>.</p>
+                    </div>
+                </div>
 
-                <article data-aos="fade-right" data-aos-delay="300">
-                    <span>03</span>
-                    <h3>Implementasi</h3>
-                    <p>SOP, pelatihan, komunikasi, APD, dan pengendalian operasional dijalankan.</p>
-                </article>
-
-                <article data-aos="fade-right" data-aos-delay="400">
-                    <span>04</span>
-                    <h3>Evaluasi</h3>
-                    <p>Inspeksi, audit, investigasi insiden, dan tindakan perbaikan dilakukan.</p>
-                </article>
-
-                <article data-aos="fade-right" data-aos-delay="500">
-                    <span>05</span>
-                    <h3>Dokumentasi</h3>
-                    <p>Manual, prosedur, instruksi kerja, formulir, checklist, dan rekaman dikendalikan.</p>
-                </article>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="maps" class="page-section maps-page">
-        <div class="container">
-            <div class="page-heading center-heading" data-aos="fade-up">
-                <p class="section-chip">Safety Maps</p>
-                <h2>Peta Keselamatan Area Kerja</h2>
-                <p>
-                    Safety maps membantu pekerja dan pengunjung memahami jalur evakuasi, titik kumpul,
-                    lokasi APAR, hidran, kotak P3K, toilet, tangga, dan area penting lain.
-                </p>
-            </div>
+        <section id="smk3" class="page-section smk3-page">
+            <div class="container">
+                <div class="page-heading center-heading" data-aos="fade-up">
+                    <p class="section-chip">Sistem Manajemen K3</p>
+                    <h2>SMK3 untuk Tempat Kerja Aman, Efisien, dan Produktif.</h2>
+                    <p>
+                        SMK3 menjadi sistem terintegrasi untuk mengendalikan risiko kerja melalui komitmen,
+                        perencanaan, implementasi, evaluasi, dokumentasi, dan perbaikan berkelanjutan.
+                    </p>
+                </div>
 
-            <div class="maps-layout">
-                <article class="map-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="map-title">
+                <div class="smk3-flow">
+                    <article data-aos="fade-right" data-aos-delay="100">
                         <span>01</span>
-                        <h3>Denah Lantai 1</h3>
-                    </div>
-                    <img src="{{ asset('assets/img/safety-map-lantai-1.png') }}" alt="Safety map lantai 1 PT Mayora Indah Tbk">
-                </article>
+                        <h3>Komitmen</h3>
+                        <p>Kebijakan, sasaran, tanggung jawab, dan sumber daya K3 ditetapkan.</p>
+                    </article>
 
-                <article class="map-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="map-title">
+                    <article data-aos="fade-right" data-aos-delay="200">
                         <span>02</span>
-                        <h3>Denah Lantai 2</h3>
-                    </div>
-                    <img src="{{ asset('assets/img/safety-map-lantai-2.png') }}" alt="Safety map lantai 2 PT Mayora Indah Tbk">
-                </article>
-            </div>
-        </div>
-    </section>
+                        <h3>Perencanaan</h3>
+                        <p>Identifikasi bahaya, penilaian risiko, regulasi, dan program K3 disusun.</p>
+                    </article>
 
-    <section class="page-section closing-page">
-        <div class="container">
-            <div class="closing-box" data-aos="zoom-out-up">
-                <p class="section-chip">Kesimpulan</p>
-                <h2>Keselamatan Kerja adalah Tanggung Jawab Bersama.</h2>
-                <p>
-                    Melalui budaya 5R, kepatuhan SOP, penggunaan APD, pengendalian risiko,
-                    pelaporan bahaya, tanggap darurat, dan penerapan SMK3, lingkungan kerja
-                    manufaktur dapat menjadi lebih aman, sehat, dan produktif.
-                </p>
-                <a href="#home" class="btn btn-primary">Kembali ke Atas</a>
+                    <article data-aos="fade-right" data-aos-delay="300">
+                        <span>03</span>
+                        <h3>Implementasi</h3>
+                        <p>SOP, pelatihan, komunikasi, APD, dan pengendalian operasional dijalankan.</p>
+                    </article>
+
+                    <article data-aos="fade-right" data-aos-delay="400">
+                        <span>04</span>
+                        <h3>Evaluasi</h3>
+                        <p>Inspeksi, audit, investigasi insiden, dan tindakan perbaikan dilakukan.</p>
+                    </article>
+
+                    <article data-aos="fade-right" data-aos-delay="500">
+                        <span>05</span>
+                        <h3>Dokumentasi</h3>
+                        <p>Manual, prosedur, instruksi kerja, formulir, checklist, dan rekaman dikendalikan.</p>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="maps" class="page-section maps-page">
+            <div class="container">
+                <div class="page-heading center-heading" data-aos="fade-up">
+                    <p class="section-chip">Safety Maps</p>
+                    <h2>Peta Keselamatan Area Kerja</h2>
+                    <p>
+                        Safety maps membantu pekerja dan pengunjung memahami jalur evakuasi, titik kumpul,
+                        lokasi APAR, hidran, kotak P3K, toilet, tangga, dan area penting lain.
+                    </p>
+                </div>
+
+                <div class="maps-layout">
+                    <article class="map-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="map-title">
+                            <span>01</span>
+                            <h3>Denah Lantai 1</h3>
+                        </div>
+                        <img src="{{ asset('assets/img/safety-map-lantai-1.png') }}" alt="Safety map lantai 1 PT Mayora Indah Tbk">
+                    </article>
+
+                    <article class="map-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="map-title">
+                            <span>02</span>
+                            <h3>Denah Lantai 2</h3>
+                        </div>
+                        <img src="{{ asset('assets/img/safety-map-lantai-2.png') }}" alt="Safety map lantai 2 PT Mayora Indah Tbk">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="page-section video-page">
+            <div class="container">
+                <div class="page-heading center-heading" data-aos="fade-up">
+                    <p class="section-chip">Edukasi Audio Visual</p>
+                    <h2>Referensi Video K3</h2>
+                    <p>
+                        Simak kumpulan video referensi mengenai simulasi, sosialisasi, dan implementasi nyata 
+                        K3 pada lingkungan industri manufaktur serta konstruksi.
+                    </p>
+                </div>
+
+                <div class="video-layout">
+                    <article class="video-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="video-title">
+                            <span>01</span>
+                            <h3>Penerapan K3 di Farmasi</h3>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/dh7df8_5vTo" title="Penerapan K3 PT Dion Farma Abadi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article class="video-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="video-title">
+                            <span>02</span>
+                            <h3>Kesadaran Bahaya Kerja</h3>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/9l2JERU3ru0" title="VIDEO K3 Keselamatan dan Kesehatan Kerja" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article class="video-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="video-title">
+                            <span>03</span>
+                            <h3>K3 Pada Sektor Konstruksi</h3>
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/Y66S1fpJOG8" title="UTAMAKAN KESELAMATAN DAN KESEHATAN KERJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="page-section closing-page">
+            <div class="container">
+                <div class="closing-box" data-aos="zoom-out-up">
+                    <p class="section-chip">Kesimpulan</p>
+                    <h2>Keselamatan Kerja adalah Tanggung Jawab Bersama.</h2>
+                    <p>
+                        Melalui budaya 5R, kepatuhan SOP, penggunaan APD, pengendalian risiko,
+                        pelaporan bahaya, tanggap darurat, dan penerapan SMK3, lingkungan kerja
+                        manufaktur dapat menjadi lebih aman, sehat, dan produktif.
+                    </p>
+                    <a href="#home" class="btn btn-primary">Kembali ke Atas</a>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -613,7 +680,7 @@
                 <a href="#organisasi">Struktur K3</a>
                 <a href="#smk3">SMK3</a>
                 <a href="#maps">Safety Maps</a>
-            </div>
+                <a href="#video">Referensi Video</a> </div>
 
             <div class="footer-info">
                 <h4>Fokus Materi</h4>
@@ -643,15 +710,11 @@
         </div>
     </footer>
 
-    <!-- Tombol Back to Top -->
     <a href="#home" id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
         <i class="fa-solid fa-arrow-up"></i>
     </a>
 
-</div> <!-- /page-wrapper -->
-
-<!-- AOS Animation Script -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</div> <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     // Inisialisasi AOS (Animate On Scroll)
     AOS.init({
